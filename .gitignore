@@ -4,4 +4,4 @@
 .idea
 .settings
 .vagrant
-client-php/vendor
+php/client/vendor
