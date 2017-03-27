@@ -1,4 +1,4 @@
-var PROTO_PATH = __dirname + '/../../proto/customer.proto'
+var PROTO_PATH = __dirname + '/../../protos/customer.proto'
 
 var _ = require('lodash');
 var async = require('async');
