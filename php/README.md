@@ -1,4 +1,4 @@
-#gRPC - PHP
+# gRPC - PHP
 
 ## Server
 PHP can't do gRPC server-y stuff :-( So run the go server instead.
