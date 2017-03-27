@@ -6,3 +6,4 @@
 .vagrant
 php/client/vendor
 nodejs/*/node_modules
+python/*.pyc

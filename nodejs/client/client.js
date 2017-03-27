@@ -52,7 +52,7 @@ function runCreateCustomer(callback) {
   customer_two = {
     id: 102,
     name: "Irene Rose",
-    email: "shiju@xyz.com",
+    email: "irene@xyz.com",
     phone: "732-757-2924",
     addresses: [
       {
