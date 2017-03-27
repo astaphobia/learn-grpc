@@ -1,5 +1,8 @@
 # gRPC - NodeJS
 
+## Prerequisites
+`node`: version 0.12 or higher
+
 ## Server
 Install dependencies:
 ```bash
