@@ -5,3 +5,4 @@
 .settings
 .vagrant
 php/client/vendor
+nodejs/*/node_modules

@@ -24,7 +24,7 @@ require dirname(__FILE__) . '/vendor/autoload.php';
 function createCustomer(CustomerClient $client, CustomerRequest $customer) {
     list($response, $status) = $client->CreateCustomer($customer)->wait();
 
-    print sprintf("Created customer: id = %d\n", $response->getId());
+    print sprintf("A new Customer has been added with id: %d\n", $response->getId());
 }
 
 /**

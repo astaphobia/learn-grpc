@@ -3,13 +3,13 @@
 ## Server
 PHP can't do gRPC server-y stuff :-( So run the go server instead.
 ```bash
-$ go run client/main.go
+$ go run server/main.go
 ```
 
 ## Client
 Install dependencies:
 ```bash
-$ cd client && composer install;
+$ cd client && composer install
 ```
 
 Run the client:
