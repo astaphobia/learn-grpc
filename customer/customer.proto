@@ -1,4 +1,4 @@
-syntax = "proto3"
+syntax = "proto3";
 
 package customer;
 
@@ -19,23 +19,23 @@ message CustomerRequest {
   string phone = 4;
 
   message Address {
-    string street = 1
-    string city = 2
-    string state = 3
-    string zip = 4
-    bool isShippingAddress = 5
+    string street = 1;
+    string city = 2;
+    string state = 3;
+    string zip = 4;
+    bool isShippingAddress = 5;
   }
 
-  repeated Address addresses = 5
+  repeated Address addresses = 5;
 }
 
 // Response message for creating a new customer.
 message CustomerResponse {
-  int32 id = 1
-  bool success = 2
+  int32 id = 1;
+  bool success = 2;
 }
 
 // Request message for filtering Customers.
 message CustomerFilter {
-  string keyword = 1
+  string keyword = 1;
 }
