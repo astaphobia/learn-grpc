@@ -1,0 +1,98 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3fa5ab2e96c31a19089898c0297e121e",
+    "content-hash": "3ff2f7f50f587a05c9735de9196182f1",
+    "packages": [
+        {
+            "name": "google/protobuf",
+            "version": "v3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/protobuf.git",
+                "reference": "593e917c176b5bc5aafa57bf9f6030d749d91cd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/protobuf/zipball/593e917c176b5bc5aafa57bf9f6030d749d91cd5",
+                "reference": "593e917c176b5bc5aafa57bf9f6030d749d91cd5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Google\\Protobuf\\Internal\\": "php/src/Google/Protobuf/Internal",
+                    "GPBMetadata\\Google\\Protobuf\\Internal\\": "php/src/GPBMetadata/Google/Protobuf/Internal"
+                },
+                "files": [
+                    "php/src/Google/Protobuf/descriptor.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "proto library for PHP",
+            "homepage": "https://developers.google.com/protocol-buffers/",
+            "keywords": [
+                "proto"
+            ],
+            "time": "2017-01-27 23:03:40"
+        },
+        {
+            "name": "grpc/grpc",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/grpc/grpc.git",
+                "reference": "e2cfe9df79c4eda4e376222df064c4c65e616352"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/grpc/grpc/zipball/e2cfe9df79c4eda4e376222df064c4c65e616352",
+                "reference": "e2cfe9df79c4eda4e376222df064c4c65e616352",
+                "shasum": ""
+            },
+            "require": {
+                "google/protobuf": "^v3.1.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "google/auth": "v0.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Grpc\\": "src/php/lib/Grpc/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "gRPC library for PHP",
+            "homepage": "http://grpc.io",
+            "keywords": [
+                "rpc"
+            ],
+            "time": "2017-03-20 21:16:13"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

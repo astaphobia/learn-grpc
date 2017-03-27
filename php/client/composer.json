@@ -1,0 +1,11 @@
+{
+    "name": "danrichards/client-php",
+    "require": {
+        "grpc/grpc": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "../protobuf/"
+        }
+    }
+}
